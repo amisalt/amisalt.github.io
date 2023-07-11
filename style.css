@@ -248,3 +248,10 @@ main .section .items{
         padding-right: 30%;
     }
 }
+@media screen and (max-width:500px){
+    .section .item{
+        width: 95vw;
+        padding-top: 95vw;
+        background-size: 95vw 95vw;
+    }
+}
