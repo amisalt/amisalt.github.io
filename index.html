@@ -4,167 +4,168 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    
-    <header class="global-header">
-        <div class="left-side">
-            <nav>
+    <header>
+        <header>
+            <div class="left-side">
                 <div class="logo"></div>
-                <input type="text" id="search">
-                <label for="search"></label>
-                <span>8:00-23:59</span>
-            </nav>
-        </div>
-        <div class="right-side">
-            <nav>
-                <a href="#">Войти</a>
-                <a href="#">0</a>
-            </nav>
+                <a href="#popular">ПОПУЛЯРНЫЕ</a>
+                <a href="#filling">СЫТНЫЕ</a>
+                <a href="#vegetarian">ВЕГЕТАРИАНСКИЕ</a>
+                <a href="#drinks">НАПИТКИ</a>
+            </div>
+            <div class="right-side">
+                <div class="contacts">
+                    <span>(495) 800-07-55</span>
+                    <span>11:00-24:00</span>
+                </div>
+                <div class="cart"></div>
+            </div>
+        </header>
+        <div class="promo">
+            <div class="items">
+                <div class="item">
+                    <span class="title">Покупай больше - плати меньше</span>
+                    <span class="subtitle">Скидка 10% при покупке 4х и более товаров</span>
+                </div>
+                <div class="item">
+                    <span class="title">Счастливые часы - скидка 10%</span>
+                    <span class="subtitle">Скидка при заказе в период с 12 по 16</span>
+                </div>
+                <div class="item">
+                    <span class="title">Бесплатная доставка при заказе на сумму свыше 1 000 ₽</span>
+                    <span class="subtitle">В любой район города</span>
+                </div>
+            </div>
+            <div class="switch">
+                <div class="button"></div>
+                <div class="button"></div>
+                <div class="button"></div>
+            </div>
         </div>
     </header>
     <main>
-        <div class="sidebar">
-            <div class="delivery">
-                <a href="#">Караганда</a>
-                <a href="#">Адреса и зоны доставки</a>
-                <a href="#">Отзывы</a>
-                <a href="#">Бонусная система</a>
-                <a href="#">Контакты</a>
-                <a href="#">Оплата и доставка</a>
-            </div>
-            <div class="meals">
-                <a href="combo">АКЦИИ И КОМБО</a>
-                <a href="breakfast">ЗАВТРАКИ</a>
-                <a href="pizza-30">ПИЦЦА 30 СМ</a>
-                <a href="#">ПИЦЦА 24 СМ</a>
-                <a href="#">ЗАКУСКИ И САЛАТЫ</a>
-                <a href="#">ГОРЯЧИЕ БЛЮДА</a>
-                <a href="#">БЛЮДА НА ХОСПЕРЕ</a>
-                <a href="#">АНТРЕСОЛЬ</a>
-                <a href="#">ПАСТА</a>
-                <a href="#">КАЛЬЦОНЧИНИ</a>
-                <a href="#">ФРЕШ-ПАСТА</a>
-                <a href="#">FAST FOOD</a>
-                <a href="#">ДЕТСКОЕ МЕНЮ</a>
-                <a href="#">НАПИТКИ</a>
-                <a href="#">БАНКЕТНЫЕ БЛЮДА</a>
-                <a href="#">ТОРТЫ / ДЕСЕРТЫ</a>
-                <a href="#">ПОЛУФАБРИКАТЫ</a>
+        <div class="section">
+            <h2 id="popular">Популярные</h2>
+            <div class="items">
+                <div class="item">
+                    <span class="weight">690 г</span>
+                    <span class="title">Пицца Терияки</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">599 ₽</span>
+                </div>
+                <div class="item">
+                    <span class="weight">650 г</span>
+                    <span class="title">Курица и грибы</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
+                </div>
+                <div class="item">
+                    <span class="weight">700 г</span>
+                    <span class="title">Четыре сыра</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
+                </div>
+                <div class="item">
+                    <span class="weight">720 г</span>
+                    <span class="title">Овощная пицца</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
+                </div>
             </div>
         </div>
-        <div class="content">
-            <div class="ads"></div>
-            <div class="section" id="combo">
-                <h2>АКЦИИ И КОМБО</h2>
+        <div class="section">
+            <h2 id="filling">Сытные</h2>
+            <div class="items">
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">690 г</span>
+                    <span class="title">Пицца Терияки</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">599 ₽</span>
                 </div>
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">650 г</span>
+                    <span class="title">Курица и грибы</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
                 </div>
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">700 г</span>
+                    <span class="title">Четыре сыра</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
                 </div>
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">720 г</span>
+                    <span class="title">Овощная пицца</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
                 </div>
             </div>
-            <div class="section" id="breakfast">
-                <h2>АКЦИИ И КОМБО</h2>
+        </div>
+        <div class="section">
+            <h2 id="vegetarian">Вегетарианские</h2>
+            <div class="items">
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">690 г</span>
+                    <span class="title">Пицца Терияки</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">599 ₽</span>
                 </div>
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">650 г</span>
+                    <span class="title">Курица и грибы</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
                 </div>
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">700 г</span>
+                    <span class="title">Четыре сыра</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
                 </div>
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">720 г</span>
+                    <span class="title">Овощная пицца</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
                 </div>
             </div>
-            <div class="section" id="pizza-30">
-                <h2>АКЦИИ И КОМБО</h2>
+        </div>
+        <div class="section">
+            <h2 id="drinks">Напитки</h2>
+            <div class="items">
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">690 г</span>
+                    <span class="title">Пицца Терияки</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">599 ₽</span>
                 </div>
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">650 г</span>
+                    <span class="title">Курица и грибы</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
                 </div>
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">700 г</span>
+                    <span class="title">Четыре сыра</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
                 </div>
                 <div class="item">
-                    <div class="info">
-                        <span>Name</span>
-                        <span>Weight</span>
-                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugit ab at libero</span>
-                        <span>price</span>
-                    </div>
+                    <span class="weight">720 г</span>
+                    <span class="title">Овощная пицца</span>
+                    <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit amet maxime totam nobis. Expedita quidem sunt ducimus tempora provident corrupti animi nemo fuga id magni. Consequatur delectus cupiditate sed.</span>
+                    <span class="price">399 ₽</span>
                 </div>
             </div>
         </div>
     </main>
-    <footer>
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sit quibusdam id architecto sunt dolorem ex ullam, ad, maiores impedit soluta provident accusantium molestiae reprehenderit numquam natus. Asperiores, officiis temporibus!</span>
-    </footer>
 </body>
 </html>
