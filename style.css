@@ -250,8 +250,10 @@ main .section .items{
 }
 @media screen and (max-width:500px){
     .section .item{
-        width: 95vw;
+        width: 93vw;
         padding-top: 95vw;
         background-size: 95vw 95vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
     }
 }
